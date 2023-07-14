@@ -1,0 +1,26 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  /* Flex-direction: Arranging items in one specific direction */
+  /* flex-direction: row*/
+  /* flex-direction: row-reverse */
+  /* flex-direction: column */
+  /* flex-direction: column-reverse */
+  /* flex-direction: column;
+
+  /* justify content: controls the aligning of items on the main axis */
+
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
+}
