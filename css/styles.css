@@ -24,3 +24,19 @@
   /* justify-content: space-evenly; */
   /* justify-content: space-evenly; */
 }
+
+.thumb {
+  height: 400px;
+  width: 300px;
+
+  border: 1px solid red;
+}
+
+.thumb > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  object-fit: contain;
+  object-position: 100px 50px;
+}
